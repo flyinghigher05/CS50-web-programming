@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+      <style>
+      .button{
+        text-align:right;
+        margin:4px;
+        background-size: 50%;
+        text-color:black;
+      }
+
+      button:hover {
+          background-color: blue;
+      }
+
+      #logo{
+        text-align:left;
+        margin: 0px;
+      }
+
+      .search_bar{
+        margin: 3px;
+        align-content: left;
+        height: 25px;
+        width: auto;
+        font-size: 20px;
+        @font-face {
+          font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+        }
+
+      }
+
+      </style>
+        <title>Search</title>
+    </head>
+
+    <div class="button">
+      <button>
+        <a href="img_search.html">
+        Image Search
+        </a>
+      </button>
+    </div>
+
+    <div class="button">
+      <button>
+        <a href="index.html">
+          Standard Search
+        </a>
+      </button>
+    </div>
+
+    <div id="logo">
+      <img src="google_logo.jpg" height=auto width="300">
+    </div>
+    <form class="search_bar" action="https://google.com/search">
+        all these words<input type="text" name="q"> <br>
+        this exact word or phrase<input type="text" name="q"><br>
+        any of these words<input type="text" name="q"><br>
+        none of these words<input type="text" name="q"><br>
+        numbers ranging from<input type="text" name="q"><br>
+    </form>
