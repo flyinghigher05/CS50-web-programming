@@ -20,15 +20,15 @@
       }
 
       .search_bar{
-        margin: 3px;
-        align-content: left;
+        margin: 5px;
         height: 25px;
         width: auto;
-        font-size: 20px;
+        font-size: 15px;
         @font-face {
           font-family: "Open Sans";
   src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+       boarder: 2px; color: blue;
         }
 
       }
@@ -57,9 +57,9 @@
       <img src="google_logo.jpg" height=auto width="300">
     </div>
     <form class="search_bar" action="https://google.com/search">
-        all these words<input type="text" name="q"> <br>
-        this exact word or phrase<input type="text" name="q"><br>
-        any of these words<input type="text" name="q"><br>
-        none of these words<input type="text" name="q"><br>
-        numbers ranging from<input type="text" name="q"><br>
+        all these words<input class="search_bar"type="text" name="q"> <br>
+        this exact word or phrase<input class="search_bar" type="text" name="q"><br>
+        any of these words<input class="search_bar" type="text" name="q"><br>
+        none of these words<input class="search_bar" type="text" name="q"><br>
+        numbers ranging from<input class="search_bar" type="text" name="q"><br>
     </form>
