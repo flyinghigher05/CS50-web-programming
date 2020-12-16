@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+      <style>
+      .button{
+        text-align:right;
+        margin:4px;
+        background-size: 50%;
+        text-color:black;
+      }
+
+      button:hover {
+          background-color: blue;
+      }
+
+      #logo{
+        text-align:center;
+        margin: 0px;
+      }
+
+      .search_bar{
+        margin: 3px;
+        text-align: center;
+        height: 25px;
+        width: auto;
+        font-size: 40px;
+      }
+
+      </style>
+        <title>Search</title>
+    </head>
+
+    <div class="button">
+      <button>
+        <a href="advanced_search.html">
+        Advanced Search
+        </a>
+      </button>
+    </div>
+
+    <div class="button">
+      <button>
+        <a href="img_search.html">
+        Image Search
+      </a>
+      </button>
+    </div>
+
+    <div id="logo">
+      <img src="google_logo.jpg" height=auto width="300">
+    </div>
+
+    <body>
+        <form class="search_bar" action="https://google.com/search">
+            <input type="text" name="q">
+            <br>
+            <input type="submit" value="Google Search">
+            <input type="submit" name="btnI" value="I am Feeling Lucky">
+        </form>
+    </body>
+</html>
